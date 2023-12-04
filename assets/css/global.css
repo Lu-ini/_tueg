@@ -1,5 +1,4 @@
 
-
 body {
     padding: 0;
     margin: auto;
@@ -36,10 +35,16 @@ body::before {
     margin: auto;
 }
 
+.navbar {
+    position: sticky;
+    top: 0px;
 
+}
 
 .menu {
     background-color: rgb(182, 135, 6);
+    position: sticky;
+    top: 0px;
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
@@ -58,6 +63,11 @@ body::before {
     padding: .55rem;
     width: 5.5rem;
     transition: .2s ease-in-out;  
+}
+
+.menu li a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .menu li:nth-child(2) {
