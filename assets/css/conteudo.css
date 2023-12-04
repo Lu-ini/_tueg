@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+
+.conteudo {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.conteudo .calendario {
+    width: 80%;
+    height: 22rem;
+    background-color: aquamarine;
+    margin: 1.6rem auto;
+}
+
+.conteudo h2 {
+    margin: .5rem;
+    color: #fff;
+    font-family: 'roboto';
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+.conteudo p {
+    color: #fff;
+    font-family: 'roboto';
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 2.3rem;
+    text-align: left;
+}
+
+.conteudo .img-capa {
+    margin: 1.6rem auto;
+    width: 18rem;
+    height: 25rem;
+    background-color: aqua;
+}
+
+
+.conteudo .mapa {
+    margin: 3rem auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 49, 14);
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.footer h3 {
+    margin-bottom: 0;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.footer p{
+    font-family: 'roboto';
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.sociais {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.sociais .logo {
+    width: 2rem;
+    height: 2rem;
+    background-color: aquamarine;
+}

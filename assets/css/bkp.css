@@ -1,0 +1,58 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: fit-content;
+    position: relative;
+} */
+
+body .corpo {
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/img/waterfall.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100vw;
+    height: 1330px;
+}
+
+.cabecalho {
+    width: 93%;
+    height: 12rem;
+    background-color: rgba(255, 255, 255, .6);
+    margin: 1.3rem auto 0 auto;
+    padding: 1rem;
+}
+
+.cabecalho .imgm {
+    background-image: url(/assets/img/logo\ tueg\ -\ com\ nome.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 32rem;
+    height: 12rem;
+    margin: auto;
+}
+
+.menu {
+    background-color: lightgray;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.menu li {
+    margin: 0 2rem;
+    list-style: none;
+}
+
+.conteudo {
+    width: 93vw;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .3);
+    margin: 0 auto;
+    padding: 1rem;
+}
