@@ -15,17 +15,17 @@
 
 .conteudo h2 {
     margin: .5rem;
-    color: #fff;
+    color: rgb(10, 53, 134);
     font-family: 'roboto';
     font-size: 2.3rem;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .conteudo p {
-    color: #fff;
+    color: rgb(10, 53, 134);
     font-family: 'roboto';
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 300;
     margin: 2.3rem;
     text-align: left;
 }
